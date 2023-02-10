@@ -470,7 +470,7 @@ html {
 
 @media(max-width:450px) {
   .aboutmepartParent:hover .firstChild {
-    transform: translateX(85%);
+    transform: translateX(70%);
   }
 }
 
@@ -1008,6 +1008,7 @@ html {
 
 @media(max-width:767px) {
   .card:hover .imgdiv {
+    font-size: 150px;
     top: 50%;
     left: 70%;
   }
@@ -1077,11 +1078,13 @@ html {
 }
 
 .aa {
+  background-color:transparent;
   position: sticky;
   bottom: 40px;
   display: flex;
   padding-right: 40px;
   justify-content: flex-end;
+  border: none;
 }
 
 /* ----------------------footerMainContainer---------------------------- */
