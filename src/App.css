@@ -1059,6 +1059,7 @@ html {
   border-radius: 10px;
   border: none;
   transition-duration: .3s;
+  color: #121416;
 }
 
 /* .viewBTN:hover {
@@ -1078,7 +1079,7 @@ html {
 }
 
 .aa {
-  background-color:transparent;
+  background-color: transparent;
   position: sticky;
   bottom: 40px;
   display: flex;
@@ -1232,6 +1233,7 @@ html {
   font-size: 20px;
   background-color: crimson;
   cursor: pointer;
+  color: #121416;
 }
 
 .popupcloseBTN:hover {
