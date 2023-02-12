@@ -8,7 +8,7 @@ import cargame from '../img/cargame.PNG'
 import MusicPlayer from '../img/MusicPlayer.PNG'
 import onePageGrid4 from '../img/onePageGrid4.PNG'
 import api3 from '../img/api3.PNG'
-import QuizApp3 from '../img/QuizApp3.PNG'
+import quizappupdated from '../img/quizappupdated.PNG'
 
 
 export const ProjectsContext = createContext();
@@ -177,16 +177,19 @@ const projects = [
     },
     {
         id: 1,
-        title: "Quiz App *",
-        img: QuizApp3,
-        subtitles: ['Array methods', 'DOM Manipulation'],
-        text: <div>Quiz application has become an application that allow me practice to
-            navigate over the array elements and transmit the desired information to the relevant html
-            tags. Thanks to the if-else structures, the output and the result are checked and finally
-            printed on the screen. Also many questions can be imported using the API and the dynamically
-            calculated grade can be displayed on the screen.</div>,
-        date: "19/12/2022",
-        link: "https://codepen.io/alkm181716/pen/poZoawE"
+        title: "Quiz App ***",
+        img: quizappupdated,
+        subtitles: ['React'],
+        text: <div>I redesigned the quiz application I used to make
+            using javascript, using React. I made both visual improvements
+            and updated my codes. Thanks to the advantages of React, I was able
+            to re-code the application much more easily. <br /><br />
+            I updated my old application and I had the opportunity to better u
+            nderstand the differences between the application I made using only
+            javascript and this version using react. <br /><br />
+            Previous version: https://codepen.io/alkm181716/pen/poZoawE</div>,
+        date: "12/02/2023",
+        link: "https://j9rf1r.csb.app/"
     },
 ]
 
