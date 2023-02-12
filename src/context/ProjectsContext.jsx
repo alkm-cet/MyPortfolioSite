@@ -179,7 +179,7 @@ const projects = [
         id: 1,
         title: "Quiz App ***",
         img: quizappupdated,
-        subtitles: ['React'],
+        subtitles: ['React',"Re-create the old one"],
         text: <div>I redesigned the quiz application I used to make
             using javascript, using React. I made both visual improvements
             and updated my codes. Thanks to the advantages of React, I was able
