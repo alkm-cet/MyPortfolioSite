@@ -7,7 +7,7 @@ import twitterclone from '../img/twitter2.PNG'
 import cargame from '../img/cargame.PNG'
 import MusicPlayer from '../img/MusicPlayer.PNG'
 import onePageGrid4 from '../img/onePageGrid4.PNG'
-import api3 from '../img/api3.PNG'
+import countryApi from '../img/countryApi.PNG'
 import quizappupdated from '../img/quizappupdated.PNG'
 
 
@@ -166,12 +166,14 @@ const projects = [
     {
         id: 2,
         title: "Country Info (API) **",
-        img: api3,
+        img: countryApi,
         subtitles: ['API', 'Async Await', 'DOM Manipulation', 'Json', 'Creating Html elements'],
         text: <div>In this study, I had the chance to use the API for the first time. I pulled
             the data I wanted from the database in the desired format and assigned it to the relevant
             html tags. It was a very productive study to understand the working logic of APIs and to
-            understand how to get the desired data.</div>,
+            understand how to get the desired data. <br /><br />
+            On 14/02/2023 i updated this project using React.<br /><br />
+            React Version : https://24hqln.csb.app/</div>,
         date: "23/12/2022",
         link: "https://codepen.io/alkm181716/pen/jOpbNeN"
     },
@@ -179,7 +181,7 @@ const projects = [
         id: 1,
         title: "Quiz App ***",
         img: quizappupdated,
-        subtitles: ['React',"Re-create the old one"],
+        subtitles: ['React', "Re-create the old one"],
         text: <div>I redesigned the quiz application I used to make
             using javascript, using React. I made both visual improvements
             and updated my codes. Thanks to the advantages of React, I was able
