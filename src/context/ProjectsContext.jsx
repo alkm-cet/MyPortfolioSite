@@ -9,11 +9,25 @@ import MusicPlayer from '../img/MusicPlayer.PNG'
 import onePageGrid4 from '../img/onePageGrid4.PNG'
 import countryApi from '../img/countryApi.PNG'
 import quizappupdated from '../img/quizappupdated.PNG'
+import weatherApp from '../img/weatherApp.PNG'
 
 
 export const ProjectsContext = createContext();
 
 const projects = [
+    {
+        id: 11,
+        title: "Weather App ****",
+        img: weatherApp,
+        subtitles: ['Open Weather API', 'React', 'Figma Design', 'Axios'],
+        text: <div>In this application, I made a weather application using the API that the
+            openweathermap site offers free of charge. This application, which I wrote using React,
+            is also mobile responsive.
+        </div>,
+        date: "19/02/2023",
+        link: "https://1zc1t2.csb.app/",
+        no: 1,
+    },
     {
         id: 10,
         title: "E-Commerce Website ****",
