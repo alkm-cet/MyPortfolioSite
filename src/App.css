@@ -426,7 +426,7 @@ html {
   width: 100%;
   height: 100%;
   top: 0;
-  right: -300px;
+  right: -460px;
   position: absolute;
   background-color: #00000038;
   backdrop-filter: blur(15px);
@@ -442,7 +442,7 @@ html {
 
 @media(max-width :430px){
   .card-body{
-    right: -200px;
+    right: -460px;
   }
 }
 
