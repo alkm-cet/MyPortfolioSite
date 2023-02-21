@@ -10,11 +10,26 @@ import onePageGrid4 from '../img/onePageGrid4.PNG'
 import countryApi from '../img/countryApi.PNG'
 import quizappupdated from '../img/quizappupdated.PNG'
 import weatherApp from '../img/weatherApp.PNG'
+import creditCard from '../img/creditCard.PNG'
 
 
 export const ProjectsContext = createContext();
 
 const projects = [
+    {
+        id: 12,
+        title: "Credit Card Design ***",
+        img: creditCard,
+        subtitles: ['Bootstrap', 'React', 'Figma Design'],
+        text: <div>In this application, I tried to create a
+            simulation where users enter credit card information.
+            Necessary restrictions can be added to the relevant fields
+            to make the application better.
+        </div>,
+        date: "21/02/2023",
+        link: "https://gbys2z.csb.app/",
+        no: 1,
+    },
     {
         id: 11,
         title: "Weather App ****",
