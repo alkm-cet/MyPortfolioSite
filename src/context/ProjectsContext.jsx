@@ -11,11 +11,27 @@ import countryApi from '../img/countryApi.PNG'
 import quizappupdated from '../img/quizappupdated.PNG'
 import weatherApp from '../img/weatherApp.PNG'
 import creditCard from '../img/creditCard.PNG'
+import Planti from '../img/Planti.PNG'
 
 
 export const ProjectsContext = createContext();
 
 const projects = [
+    {
+        id: 13,
+        title: "Planti Dashboard *****",
+        img: Planti,
+        subtitles: ['React'],
+        text: <div>This is a design-oriented responsive dashboard work.
+            In this work, I tried to implement a design that I saw on the internet.
+            This project, which I created using React, took about 1 day.
+            Although I work as responsively as I can during this process,
+            the design features can be perfected by spending more time on the project.
+        </div>,
+        date: "25/02/2023",
+        link: "https://jwn62u.csb.app/",
+        no: 1,
+    },
     {
         id: 12,
         title: "Credit Card Design ***",
