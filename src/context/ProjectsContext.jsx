@@ -12,11 +12,30 @@ import quizappupdated from '../img/quizappupdated.PNG'
 import weatherApp from '../img/weatherApp.PNG'
 import creditCard from '../img/creditCard.PNG'
 import Planti from '../img/Planti.PNG'
+import FirebaseNotes from '../img/FirebaseNotes.PNG'
 
 
 export const ProjectsContext = createContext();
 
 const projects = [
+    {
+        id: 14,
+        title: "Firebase Note App *****",
+        img: FirebaseNotes,
+        subtitles: ['React','Firebase','Firebase Database','Firebase Auth'],
+        text: <div>In this work, I used Firebase for the first time and included
+             both the Authentication feature and the Database feature in my 
+             project. <br /><br /> Users can create in-app notes by logging into the app 
+             through their google accounts. These notes are stored in the 
+             database and are taken from there and reflected on the screen 
+             to be seen by everyone. Some bugs and design issues for the 
+             application are among the problems that can be resolved in 
+             the future. But for now the app is available.
+        </div>,
+        date: "28/02/2023",
+        link: "https://jm4h9o.csb.app/",
+        no: 1,
+    },
     {
         id: 13,
         title: "Planti Dashboard *****",
